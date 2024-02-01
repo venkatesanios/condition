@@ -46,6 +46,31 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  http: ^1.1.0
+  mqtt_client: ^10.0.0
+  shared_preferences: ^2.1.0
+  intl_phone_number_input: ^0.7.3+1
+  table_calendar: ^3.0.9
+  syncfusion_flutter_charts: ^22.2.12
+  data_table_2: ^2.5.8
+  popover: ^0.2.8+2
+  side_sheet: ^1.0.4
+  provider: ^6.0.5
+  loading_indicator: ^3.1.0
+  linked_scroll_controller: ^0.2.0
+  flutter_time_picker_spinner: ^2.0.0
+  numberpicker: ^2.1.2
+  rxdart: ^0.27.0
+  image_picker: ^1.0.4
+  webview_flutter: ^2.0.10
+  intl: ^0.18.1
+  reorderable_grid_view: ^2.2.8
+  fl_chart: ^0.65.0
+  search_page: ^2.3.0
+  uuid: ^4.2.2
+  chat_bubbles: ^1.5.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -1,0 +1,350 @@
+{
+    "code": 200,
+    "message": "User planning condition library listed successfully",
+    "data": {
+        "conditionLibrary": {
+            "program": [
+                {
+                    "sNo": 1,
+                    "id": "COND1",
+                    "location": "",
+                    "name": "Condition1",
+                    "enable": true,
+                    "state": "",
+                    "duration": "00:00",
+                    "conditionIsTrueWhen": "Program 1 is  ending",
+                    "fromTime": "00:00",
+                    "untilTime": "00:00",
+                    "notification": true,
+                    "usedByProgram": "Program 1",
+                    "program": "Program 1",
+                    "zone": "",
+                    "dropdown1": "Program is ending",
+                    "dropdown2": "Program 1",
+                    "dropdownValue": ""
+                },
+                {
+                    "sNo": 2,
+                    "id": "COND2",
+                    "location": "",
+                    "name": "Condition2",
+                    "enable": true,
+                    "state": "",
+                    "duration": "00:00",
+                    "conditionIsTrueWhen": "Program 1 is  running",
+                    "fromTime": "00:00",
+                    "untilTime": "00:00",
+                    "notification": false,
+                    "usedByProgram": "Program 1",
+                    "program": "Program 1",
+                    "zone": "",
+                    "dropdown1": "Program is running",
+                    "dropdown2": "Program 1",
+                    "dropdownValue": ""
+                },
+                {
+                    "sNo": 3,
+                    "id": "COND3",
+                    "location": "",
+                    "name": "Condition3",
+                    "enable": false,
+                    "state": "",
+                    "duration": "00:00",
+                    "conditionIsTrueWhen": "Program 2 is  not running",
+                    "fromTime": "00:00",
+                    "untilTime": "00:00",
+                    "notification": true,
+                    "usedByProgram": "Program 2",
+                    "program": "Program 2",
+                    "zone": "",
+                    "dropdown1": "Program is not running",
+                    "dropdown2": "Program 2",
+                    "dropdownValue": ""
+                }
+            ],
+            "moisture": [
+                {
+                    "sNo": 1,
+                    "id": "COND1",
+                    "location": "",
+                    "name": "Condition1",
+                    "enable": true,
+                    "state": "",
+                    "duration": "00:00",
+                    "conditionIsTrueWhen": "Moisture Sensor 1.1 is ture Sensor reading  value 34 ",
+                    "fromTime": "00:00",
+                    "untilTime": "00:00",
+                    "notification": true,
+                    "usedByProgram": "",
+                    "program": "",
+                    "zone": "",
+                    "dropdown1": "Moisture Sensor reading is higher than",
+                    "dropdown2": "Moisture Sensor 1.1",
+                    "dropdownValue": "34"
+                },
+                {
+                    "sNo": 2,
+                    "id": "COND2",
+                    "location": "",
+                    "name": "Condition2",
+                    "enable": true,
+                    "state": "",
+                    "duration": "00:00",
+                    "conditionIsTrueWhen": "Level Sensor 1.1 is  higher than value 1 ",
+                    "fromTime": "00:00",
+                    "untilTime": "00:00",
+                    "notification": true,
+                    "usedByProgram": "",
+                    "program": "",
+                    "zone": "",
+                    "dropdown1": "Level Sensor reading is higher than",
+                    "dropdown2": "Level Sensor 1.1",
+                    "dropdownValue": "1"
+                },
+                {
+                    "sNo": 3,
+                    "id": "COND3",
+                    "location": "",
+                    "name": "Condition3",
+                    "enable": true,
+                    "state": "",
+                    "duration": "00:00",
+                    "conditionIsTrueWhen": "Moisture Sensor 1.1 is ture Sensor reading  value 2 ",
+                    "fromTime": "00:00",
+                    "untilTime": "00:00",
+                    "notification": true,
+                    "usedByProgram": "",
+                    "program": "",
+                    "zone": "",
+                    "dropdown1": "Moisture Sensor reading is lower than",
+                    "dropdown2": "Moisture Sensor 1.1",
+                    "dropdownValue": "2"
+                }
+            ],
+            "level": [
+                {
+                    "sNo": 1,
+                    "id": "COND1",
+                    "location": "",
+                    "name": "Condition1",
+                    "enable": false,
+                    "state": "",
+                    "duration": "00:00",
+                    "conditionIsTrueWhen": "Level Sensor 1.1 is  higher than value 12 ",
+                    "fromTime": "00:00",
+                    "untilTime": "00:00",
+                    "notification": false,
+                    "usedByProgram": "",
+                    "program": "",
+                    "zone": "",
+                    "dropdown1": "Level Sensor reading is higher than",
+                    "dropdown2": "Level Sensor 1.1",
+                    "dropdownValue": "12"
+                },
+                {
+                    "sNo": 2,
+                    "id": "COND2",
+                    "location": "",
+                    "name": "Condition2",
+                    "enable": false,
+                    "state": "",
+                    "duration": "00:00",
+                    "conditionIsTrueWhen": "",
+                    "fromTime": "00:00",
+                    "untilTime": "00:00",
+                    "notification": false,
+                    "usedByProgram": "",
+                    "program": "",
+                    "zone": "",
+                    "dropdown1": "",
+                    "dropdown2": "",
+                    "dropdownValue": ""
+                },
+                {
+                    "sNo": 3,
+                    "id": "COND3",
+                    "location": "",
+                    "name": "Condition3",
+                    "enable": false,
+                    "state": "",
+                    "duration": "00:00",
+                    "conditionIsTrueWhen": "",
+                    "fromTime": "00:00",
+                    "untilTime": "00:00",
+                    "notification": false,
+                    "usedByProgram": "",
+                    "program": "",
+                    "zone": "",
+                    "dropdown1": "",
+                    "dropdown2": "",
+                    "dropdownValue": ""
+                }
+            ]
+        },
+        "default": {
+            "dropdown": [
+                "Program is running",
+                "Program is not running",
+                "Program is starting",
+                "Program is ending",
+                "Contact is opened",
+                "Contact is closed",
+                "Contact is opening",
+                "Contact is closing",
+                "Zone is low flow than",
+                "Zone is high flow than",
+                "Zone is no flow than",
+                "Water meter flow is higher than",
+                "Water meter flow is lower than",
+                "Analog Sensor reading is higher than",
+                "Analog Sensor reading is lower than",
+                "Moisture Sensor reading is higher than",
+                "Moisture Sensor reading is lower than",
+                "Level Sensor reading is higher than",
+                "Level Sensor reading is lower than",
+                "Combined condition is true",
+                "Combined condition is false"
+            ],
+            "program": [
+                {
+                    "sNo": 1,
+                    "id": "PG1",
+                    "name": "Program 1",
+                    "location": ""
+                },
+                {
+                    "sNo": 2,
+                    "id": "PG2",
+                    "name": "Program 2",
+                    "location": ""
+                },
+                {
+                    "sNo": 3,
+                    "id": "PG3",
+                    "name": "Program 3",
+                    "location": ""
+                },
+                {
+                    "sNo": 4,
+                    "id": "PG4",
+                    "name": "Program 4",
+                    "location": ""
+                }
+            ],
+            "analogSensor": [
+                {
+                    "sNo": 7,
+                    "id": "AS1",
+                    "name": "Analog Sensor 1",
+                    "location": ""
+                },
+                {
+                    "sNo": 8,
+                    "id": "AS2",
+                    "name": "Analog Sensor 2",
+                    "location": ""
+                },
+                {
+                    "sNo": 9,
+                    "id": "AS3",
+                    "name": "Analog Sensor 3",
+                    "location": ""
+                }
+            ],
+            "moistureSensor": [
+                {
+                    "sNo": 119,
+                    "id": "MS1.1",
+                    "name": "Moisture Sensor 1.1",
+                    "location": "IL1"
+                },
+                {
+                    "sNo": 120,
+                    "id": "MS1.2",
+                    "name": "Moisture Sensor 1.2",
+                    "location": "IL1"
+                },
+                {
+                    "sNo": 117,
+                    "id": "MS2.1",
+                    "name": "Moisture Sensor 2.1",
+                    "location": "IL2"
+                },
+                {
+                    "sNo": 118,
+                    "id": "MS2.2",
+                    "name": "Moisture Sensor 2.2",
+                    "location": "IL2"
+                }
+            ],
+            "levelSensor": [
+                {
+                    "sNo": 121,
+                    "id": "LS1.1",
+                    "name": "Level Sensor 1.1",
+                    "location": "IL1"
+                }
+            ],
+            "waterMeter": [
+                {
+                    "sNo": 131,
+                    "id": "WMIL1.1",
+                    "name": "Water Meter IL 1.1",
+                    "location": "IL1"
+                },
+                {
+                    "sNo": 132,
+                    "id": "WMIL2.1",
+                    "name": "Water Meter IL 2.1",
+                    "location": "IL2"
+                }
+            ],
+            "contact": [
+                {
+                    "sNo": 35,
+                    "id": "CONT1",
+                    "name": "Contact 1",
+                    "location": ""
+                },
+                {
+                    "sNo": 36,
+                    "id": "CONT2",
+                    "name": "Contact 2",
+                    "location": ""
+                },
+                {
+                    "sNo": 37,
+                    "id": "CONT3",
+                    "name": "Contact 3",
+                    "location": ""
+                },
+                {
+                    "sNo": 38,
+                    "id": "CONT4",
+                    "name": "Contact 4",
+                    "location": ""
+                }
+            ],
+            "condition": [
+                {
+                    "sNo": 1,
+                    "id": "COND1",
+                    "location": "",
+                    "name": "Condition1"
+                },
+                {
+                    "sNo": 2,
+                    "id": "COND2",
+                    "location": "",
+                    "name": "Condition2"
+                },
+                {
+                    "sNo": 3,
+                    "id": "COND3",
+                    "location": "",
+                    "name": "Condition3"
+                }
+            ]
+        }
+    }
+}
