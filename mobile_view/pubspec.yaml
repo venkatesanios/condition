@@ -1,0 +1,309 @@
+name: mobile_view
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  data_table_2: ^2.5.12
+  material_design_icons_flutter: ^7.0.7296
+  firebase_core: ^3.5.0
+  upgrader: ^10.3.0
+  flutter_json_view: ^1.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  cupertino_icons: ^1.0.8
+  data_table_2: ^2.5.12
+  material_design_icons_flutter: ^7.0.7296
+  firebase_core: ^3.5.0
+  upgrader: ^10.3.0
+  flutter_json_view: ^1.1.5
+  google_fonts: ^5.1.0
+  http: ^1.1.0
+  mqtt_client: ^10.0.0
+  shared_preferences: ^2.1.0
+  table_calendar: ^3.0.9
+  syncfusion_flutter_charts: ^22.2.12
+  popover: ^0.2.8+2
+  side_sheet: ^1.0.4
+  provider: ^6.0.5
+  loading_indicator: ^3.1.0
+  linked_scroll_controller: ^0.2.0
+  flutter_time_picker_spinner: ^2.0.0
+  numberpicker: ^2.1.2
+  rxdart: ^0.27.0
+  image_picker: ^1.0.4
+  webview_flutter: ^2.0.10
+  intl: ^0.18.1
+  reorderable_grid_view: ^2.2.8
+  fl_chart: ^0.65.0
+  search_page: ^2.3.0
+  uuid: ^4.2.2
+  sleek_circular_slider: ^2.0.1
+  excel: ^4.0.2
+  chat_bubbles: ^1.5.0
+  flutter_date_range_picker: ^0.0.14
+  custom_date_range_picker: ^1.0.10
+  flutter_charts: ^0.5.2
+  flutter_svg: ^2.0.9
+  percent_indicator: ^4.2.3
+  gauge_indicator: ^0.4.3
+  syncfusion_flutter_datepicker: ^22.2.12
+  google_maps_flutter: ^2.7.0
+  geolocator: ^11.0.0
+  permission_handler: ^11.3.1
+  syncfusion_flutter_gauges: ^22.2.12
+  home_widget: ^0.6.0
+  device_info_plus: ^10.1.0
+  flutter_local_notifications: ^17.2.1+2
+  firebase_messaging: ^15.1.2
+  firebase_auth: ^5.3.0
+  otp_pin_field: ^1.2.9+1
+  archive: ^3.6.1
+  flutter_screenutil: ^5.9.3
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+    # To add assets to your application, add an assets section, like this:
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  assets:
+    - assets/images/on_off.png
+    - assets/images/selector_r.png
+    - assets/images/selector_b.png
+    - assets/images/selector_g.png
+    - assets/images/selector_o.png
+    - assets/images/valve_b.png
+    - assets/images/valve_r.png
+    - assets/images/valve_g.png
+    - assets/images/valve_o.png
+    - assets/images/main_valve_b.png
+    - assets/images/main_valve_r.png
+    - assets/images/main_valve_g.png
+    - assets/images/main_valve_o.png
+    - assets/images/booster_b.png
+    - assets/images/booster_r.png
+    - assets/images/booster_g.png
+    - assets/images/booster_o.png
+    - assets/images/source_pump1.png
+    - assets/images/moisture_sensor.png
+    - assets/images/level_sensor.png
+    - assets/images/oro_switch.png
+    - assets/images/oro_gem.png
+    - assets/images/choose_controller.png
+    - assets/images/oro_sense.png
+    - assets/images/oro_rtu.png
+    - assets/images/humidity.png
+    - assets/images/rainGauge.png
+    - assets/images/soilTemperature.png
+    - assets/images/sendToServer.png
+    - assets/images/mqttError.png
+    - assets/images/booster_pump1.png
+    - assets/images/channel.png
+    - assets/images/fan.png
+    - assets/images/fogger1.png
+    - assets/images/selector.png
+    - assets/images/water_meter.png
+    - assets/images/pressure_sensor.png
+    - assets/images/soil_temperature_sensor.png
+    - assets/images/contact.png
+    - assets/images/irrigation_line1.png
+    - assets/images/horizontal_air_pipe.svg
+    - assets/images/non_return_valve.svg
+    - assets/images/sunset.png
+    - assets/images/sunrise.png
+    - assets/images/downpour-rain.png
+    - assets/images/RainRate.png
+    - assets/images/Rel.Press.png
+    - assets/images/windy.png
+    - assets/SVGPicture/Group 1000003221.svg
+    - assets/SVGPicture/Group 1000003222.svg
+    - assets/SVGPicture/how-it-works-image-3 1.svg
+    - assets/SVGPicture/oro_logo.svg
+    - assets/SVGPicture/oro_logo_white.svg
+    - assets/images/booster.svg
+    - assets/images/booster_r.svg
+    - assets/images/booster_g.svg
+    - assets/images/channel_b.svg
+    - assets/images/channel_g.svg
+    - assets/images/channel_o.svg
+    - assets/images/channel_r.svg
+    - assets/images/filter_mode_0.svg
+    - assets/images/filter_mode_1.svg
+    - assets/images/filter_mode_2.svg
+    - assets/images/filter_mode_3.svg
+    - assets/images/filter_mode_4.svg
+    - assets/images/agitator_g.svg
+    - assets/images/agitator_r.svg
+    - assets/images/agitator_o.svg
+    - assets/images/agitator_b.svg
+    - assets/images/3_way_valve_backwash.svg
+    - assets/images/3_way_valve_filtration.svg
+    - assets/images/sump.svg
+    - assets/images/T_joint.svg
+    - assets/images/L_joint.svg
+    - assets/images/pressure_sensor.svg
+    - assets/images/mountain.svg
+    - assets/images/cycle_leading.svg
+    - assets/images/zone_leading.svg
+    - assets/images/valve.png
+    - assets/images/bottle.png
+    - assets/images/sump_low.png
+    - assets/images/sump_high.png
+    - assets/images/tank_low.png
+    - assets/images/tank_high.png
+    - assets/images/method.svg
+    - assets/images/time_quantity.svg
+    - assets/images/moisture_condition.svg
+    - assets/images/level_condition.svg
+    - assets/images/pre_post_method.svg
+    - assets/images/pre_value.svg
+    - assets/images/post_value.svg
+    - assets/images/m_valve.png
+    - assets/images/horizontal_water_pipe.svg
+    - assets/images/horizontal_water_fert_pipe.svg
+    - assets/images/horizontal_water_pipe_g.svg
+    - assets/images/vertical_water_pipe.svg
+    - assets/images/vertical_water_pipe_b.svg
+    - assets/images/vertical_water_pipe_g.svg
+    - assets/images/no_data.jpg
+    - assets/images/default.svg
+    - assets/images/serverError.png
+    - assets/images/success.png
+    - assets/images/clock_needle.png
+    - assets/weather/airpressure.png
+    - assets/weather/co2sensor.png
+    - assets/weather/humidity.png
+    - assets/weather/leafwetness.png
+    - assets/weather/luxsensor.png
+    - assets/weather/rainfall.png
+    - assets/weather/soilmoisture.png
+    - assets/weather/soilmoisture-1.png
+    - assets/weather/temperature3.png
+    - assets/weather/winddirection.png
+    - assets/weather/windspeed.png
+    - assets/weather/menucondition.png
+    - assets/weather/menucondition.png
+    - assets/weather/menufertlizerset.png
+    - assets/weather/menufilter.png
+    - assets/weather/menufrost.png
+    - assets/weather/menuglobal.png
+    - assets/weather/menugroup.png
+    - assets/weather/menuprogramque.png
+    - assets/weather/menuradiationset.png
+    - assets/weather/menusatelite.png
+    - assets/weather/menuwatersource.png
+    - assets/weather/menuweather.png
+    - assets/weather/oro_gem.png
+    - assets/weather/markergray.png
+    - assets/weather/markerorange.png
+    - assets/weather/markerred.png
+    - assets/weather/markergreen.png
+    - assets/weather/markeryellow.png
+    - assets/weather/compass.png
+    - assets/weather/w08.png
+    - assets/images/central_fertilizer_site2.png
+    - assets/images/central_filtration_site.png
+    - assets/images1/SoilMoisture1.png
+    - assets/images1/SoilMoisture2.png
+    - assets/images1/SoilMoisture.png
+    - assets/images1/SoilTemp .png
+    - assets/images1/humidity.png
+    - assets/images1/Temperature.png
+    - assets/images1/CO-2.png
+    - assets/images1/leafWetness.png
+    - assets/images1/LDR.png
+    - assets/images1/Lux.png
+    - assets/images1/rainFall.png
+    - assets/images1/WindDirection.png
+    - assets/images1/WindSpeed.png
+    - assets/images1/WindSpeedColor.png
+    - assets/images1/pressure.png
+    - assets/images1/Sunrise.png
+    - assets/images1/Sunrise1.png
+    - assets/images1/sunset.png
+    - assets/images/user_thumbnail.png
+    - assets/countrycodes.json
+    - assets/images/otp.png
+    - assets/images/otpmobile.png
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/playstore.png"
+  min_sdk_android: 21
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

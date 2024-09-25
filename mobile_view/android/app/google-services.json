@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "732330939838",
+    "project_id": "oro-irrigation-a7ccd",
+    "storage_bucket": "oro-irrigation-a7ccd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732330939838:android:291a4252c4c1a74ba455ef",
+        "android_client_info": {
+          "package_name": "com.example.mobile_view"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAC4yN-2mRrOBLE6Ph9ufmZgKO-ADHM-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732330939838:android:3581b241decf2527a455ef",
+        "android_client_info": {
+          "package_name": "com.niagaraautomations.oro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAC4yN-2mRrOBLE6Ph9ufmZgKO-ADHM-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
